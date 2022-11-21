@@ -31,6 +31,15 @@ public class UserPrompts {
             System.out.println("What temperature in Celsius would you like to convert?");
             double chosenTemp = scanner.nextDouble();
             TempConverter.StartCelsius.toKelvin(chosenTemp);
+        } else if(tempChoice == 5) {
+            System.out.println("What temperature in Kelvin would you like to convert?");
+            double chosenTemp = scanner.nextDouble();
+            TempConverter.StartKelvin.toFahrenheit(chosenTemp);
+        }
+        else if(tempChoice == 6) {
+            System.out.println("What temperature in Kelvin would you like to convert?");
+            double chosenTemp = scanner.nextDouble();
+            TempConverter.StartKelvin.toCelsius(chosenTemp);
         }
     }
 }
