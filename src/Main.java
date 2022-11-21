@@ -14,7 +14,7 @@ public class Main {
         int UserChoice = scanner.nextInt();
 
         if(UserChoice == 1) {
-            System.out.print("temp chosen");
+            prompts.UserPrompts.tempPrompts(scanner);
         } else if(UserChoice == 2) {
             System.out.print("dist chosen");
         } else if(UserChoice == 3) {
