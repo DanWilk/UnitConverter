@@ -16,7 +16,7 @@ public class Main {
         if(UserChoice == 1) {
             prompts.UserPrompts.tempPrompts(scanner);
         } else if(UserChoice == 2) {
-            System.out.print("dist chosen");
+            prompts.DistancePrompts.StandardToMetric(scanner);
         } else if(UserChoice == 3) {
             System.out.print("mass chosen");
         } else if(UserChoice == 4) {
