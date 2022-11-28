@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04c519fc-3cf1-491a-a8fd-f62276ed35f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/prompts/DistancePrompts.java" afterDir="false" />
+    <list default="true" id="04c519fc-3cf1-491a-a8fd-f62276ed35f5" name="Changes" comment="Added distance prompts">
+      <change afterPath="$PROJECT_DIR$/src/DistanceConverter/StandardToMetric/StartFeet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DistanceConverter/StandardToMetric/StartInches.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DistanceConverter/StandardToMetric/StartYards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DistanceConverter/StandardToMetric/StartYards.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prompts/DistancePrompts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prompts/DistancePrompts.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669065307408</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added distance prompts">
+      <created>1669522616693</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669522616693</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -79,6 +86,7 @@
     <MESSAGE value="Added user prompts and temperature converter for fahrenheit and celsius" />
     <MESSAGE value="Added" />
     <MESSAGE value="Added Kelvin conversions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Kelvin conversions" />
+    <MESSAGE value="Added distance prompts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added distance prompts" />
   </component>
 </project>
