@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04c519fc-3cf1-491a-a8fd-f62276ed35f5" name="Changes" comment="Added in distance conversions for miles to metric units.">
-      <change afterPath="$PROJECT_DIR$/src/DistanceConverter/MetricToStandard/StartKilometers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DistanceConverter/MetricToStandard/StartMeters.java" afterDir="false" />
+    <list default="true" id="04c519fc-3cf1-491a-a8fd-f62276ed35f5" name="Changes" comment="Added distance conversions for Meters and Kilometers to Standard units">
+      <change afterPath="$PROJECT_DIR$/src/DistanceConverter/MetricToStandard/StartCentimeters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DistanceConverter/MetricToStandard/StartMillimeters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +23,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2HkZSa4rLaexLntq1o8eLb9lez6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -67,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669522616693</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added distance conversions for Meters and Kilometers to Standard units">
+      <created>1669916739580</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669916739580</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,6 +96,7 @@
     <MESSAGE value="Added" />
     <MESSAGE value="Added Kelvin conversions" />
     <MESSAGE value="Added distance prompts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added distance prompts" />
+    <MESSAGE value="Added distance conversions for Meters and Kilometers to Standard units" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added distance conversions for Meters and Kilometers to Standard units" />
   </component>
 </project>
