@@ -16,7 +16,21 @@ public class Main {
         if(UserChoice == 1) {
             prompts.UserPrompts.tempPrompts(scanner);
         } else if(UserChoice == 2) {
-            prompts.DistancePrompts.StandardToMetric(scanner);
+            System.out.println("Which conversion would you like to make?");
+            System.out.println("1. Standard To Metric");
+            System.out.println("2. Metric to Standard");
+
+            switch(scanner.nextInt()) {
+                case 1:
+                    prompts.DistancePrompts.StandardToMetric(scanner);
+                    break;
+                case 2:
+                    prompts.DistancePrompts.MetricToStandard(scanner);
+                    break;
+                default:
+                    System.out.println("invalid option");
+                    break;
+            }
         } else if(UserChoice == 3) {
             System.out.print("mass chosen");
         } else if(UserChoice == 4) {
