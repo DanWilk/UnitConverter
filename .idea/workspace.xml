@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04c519fc-3cf1-491a-a8fd-f62276ed35f5" name="Changes" comment="Added distance prompts">
-      <change afterPath="$PROJECT_DIR$/src/DistanceConverter/StandardToMetric/StartFeet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DistanceConverter/StandardToMetric/StartInches.java" afterDir="false" />
+    <list default="true" id="04c519fc-3cf1-491a-a8fd-f62276ed35f5" name="Changes" comment="Added in distance conversions for miles to metric units.">
+      <change afterPath="$PROJECT_DIR$/src/DistanceConverter/MetricToStandard/StartKilometers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DistanceConverter/MetricToStandard/StartMeters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prompts/DistancePrompts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prompts/DistancePrompts.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
