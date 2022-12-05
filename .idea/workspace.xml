@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="04c519fc-3cf1-491a-a8fd-f62276ed35f5" name="Changes" comment="Added distance conversions for Centimeters and Millimeters to Standard units">
+    <list default="true" id="04c519fc-3cf1-491a-a8fd-f62276ed35f5" name="Changes" comment="Connected distance conversion methods to prompt methods">
+      <change afterPath="$PROJECT_DIR$/src/DistanceConverter/MetricToMetric/StartCentimeters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DistanceConverter/MetricToMetric/StartKilometers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DistanceConverter/MetricToMetric/StartMeters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prompts/DistancePrompts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prompts/DistancePrompts.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669919786141</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Connected distance conversion methods to prompt methods">
+      <created>1669924558522</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669924558522</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,6 +116,7 @@
     <MESSAGE value="Added distance prompts" />
     <MESSAGE value="Added distance conversions for Meters and Kilometers to Standard units" />
     <MESSAGE value="Added distance conversions for Centimeters and Millimeters to Standard units" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added distance conversions for Centimeters and Millimeters to Standard units" />
+    <MESSAGE value="Connected distance conversion methods to prompt methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Connected distance conversion methods to prompt methods" />
   </component>
 </project>
